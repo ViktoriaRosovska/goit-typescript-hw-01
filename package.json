@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server --node-resolve --open --watch",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d start"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/ViktoriaRosovska/goit-typescript-hw-01#readme",
   "devDependencies": {
-    "@web/dev-server": "^0.4.2"
+    "@web/dev-server": "^0.4.2",
+    "gh-pages": "^6.1.1"
   },
   "dependencies": {
     "has-symbols": "^1.0.3"
