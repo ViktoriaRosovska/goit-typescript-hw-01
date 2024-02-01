@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ViktoriaRosovska/goit-typescript-hw-01"
+    "url": "https://github.com/ViktoriaRosovska/goit-typescript-hw-01"
   },
   "author": "Viktoria Rosovska",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ViktoriaRosovska/goit-typescript-hw-01/issues"
   },
-  "homepage": "https://github.com/ViktoriaRosovska/goit-typescript-hw-01",
+  "homepage": "https://viktoriarosovska.github.io/goit-typescript-hw-01/",
   "devDependencies": {
     "@web/dev-server": "^0.4.2",
     "gh-pages": "^6.1.1"
