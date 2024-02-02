@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
-    "deploy": "npm run build && gh-pages -d dist -b master"
+    "deploy": "gh-pages -d dist -b master"
   },
   "repository": {
     "type": "git",
